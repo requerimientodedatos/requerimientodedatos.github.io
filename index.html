@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROYECTO FINAL DE PROGRAMACION WEB</title>
+	
+
+  <!-- BOOSTRAP CSS -->
+  
+  <link rel="stylesheet" type="text/css" href="css\estilos.css"/>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+</head>
+<body bgcolor="black" text =  "white">
+
+<h1>KWIK - E - MART</h1>
+<hr color="blue" size=3>
+<br>
+<br>
+<h2>Nombre del producto</h2>
+<h2><input type="text" id="pri" name="Nombre"></h2>
+<br>
+<br>
+<h2>Marca del producto</h2>
+<h2><input type="text" id="seg" name="Marca"></h2>
+<br>
+<br>
+<h2>Presentación del producto</h2>
+<h2><input type="text" id="ter" name="Marca"></h2>
+<h2><button onclick="guardarEnBD();">Agregar producto</button></h2>
+<br>
+<br>
+<h2><label>¿Qué producto deseas eliminar?</label></h2>
+<h2><input type="text" id="tercero" name="Carro"></h2>
+<h2><button onclick="eliminar();">Eliminar producto </button></h2>
+<br>
+<br>
+<h2><label>¿Qué producto deseas editar?</label></h2>
+<h2><input type="text" id="cuarto" name="Carro"></h2>
+<h2><button onclick="editar();">Editar producto</button></h2>
+<br>
+<br>
+<hr color="blue" size=3>
+<footer>Copyright Flores Ventura Moises</footer>
+</body>
+<script type="text/javascript" src="js.js"></script>
+</html>
